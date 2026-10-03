@@ -6,19 +6,19 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: ZZ private Sileo repository
-Date: Sat, 03 Oct 2026 02:48:23 +0000
+Date: Sat, 03 Oct 2026 03:12:13 +0000
 MD5Sum:
- 8b109d8d682a890f58c54a31106ca264              680 Packages
- 7a39a2fdae185e1a2a39843782db683d              463 Packages.gz
- 5c42fa4da6374618432377171c0a2c74              522 Packages.bz2
- 467ec3b925ece845a23c1b04aa6f5edc              492 Packages.xz
+ 7a441b4bd5ac6147b4bee8177b549989             1672 Packages
+ 159da47c8dc9876ebf2a82803274e755              827 Packages.gz
+ c8f9e3646935a0035c0784137c640121              964 Packages.bz2
+ 73f8e59b16b10dad0fde7dcf2e9eb6c5              844 Packages.xz
 SHA1:
- a537f8e89935e9633d10d9b2ec28a92632e9bb7b              680 Packages
- 743ba5dbb2e78406957f54717d753bd14b57f8e9              463 Packages.gz
- 7ce47b37892eb64dbb124997884e307fd3dbc73f              522 Packages.bz2
- 774e69340810d046f9d5916008e4b312f5061284              492 Packages.xz
+ 4203e6a098ac35a6b625fb77e33c005382663c52             1672 Packages
+ 99df3e8c796162e669f74620ad8301a62bdf42c8              827 Packages.gz
+ 4a6be2de735875ae580950b95ba6eaeda04105fb              964 Packages.bz2
+ 248e24d262d9281fbebf1ebdcdb6df82f47630e5              844 Packages.xz
 SHA256:
- 8662a71e5b132454cc670042d742e2219fde475800e8690589fb047619efd4a6              680 Packages
- ce5d207b7976005d3fe784e032e66ae6d203fce6aff4dd8f872fec546a1c1a59              463 Packages.gz
- c5107c7f851a0b22b8d235a8cee1a5832be4411601f489b4f7526caf415412dd              522 Packages.bz2
- 35b95e585d1fea2e18aaa0a98c9a2c8cea4a8e8e06a97ebac074b0f2c0767846              492 Packages.xz
+ a3a838a1fd2c468c61f3ae6bc8a292cb6c739ec9f9483ce34079b1b7cc8bdb09             1672 Packages
+ 3a24230d99b967e3e9ad4284646534bd090ba11a8cc3569c188f66975aec1b19              827 Packages.gz
+ 0d4a82e5cd37dc555665b6a05f81aee00d66b82cfdfcf2fe015c558ca1e077fe              964 Packages.bz2
+ 61426267b0ab52e4a3fde5200aa9477cd3e21163fcc3d8cd45396d1ef06038de              844 Packages.xz

@@ -1,0 +1,46 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#5b8cff",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "XXTouch 1.3-7"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "修复 A12 Taurine 无法启动服务",
+          "useMargins": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 模拟触摸工具。此包为 1.3-7，修复 A12 设备在 Taurine 越狱下无法启动服务的问题。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包名",
+          "text": "com.1func.xxtouch.bigboss"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.3-7"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "iphoneos-arm"
+        }
+      ]
+    }
+  ]
+}

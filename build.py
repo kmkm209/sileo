@@ -112,6 +112,27 @@ def build_packages() -> str:
                 control = "".join(kept)
                 if not control.endswith("\n"):
                     control += "\n"
+        pkg = stanza_get(control, "Package")
+        if pkg == "com.1func.xxtouch.bigboss":
+            for drop in ("Icon", "Depiction", "SileoDepiction"):
+                if stanza_get(control, drop):
+                    kept = []
+                    skip = False
+                    for line in control.splitlines(True):
+                        if skip:
+                            if line.startswith((" ", "\t")):
+                                continue
+                            skip = False
+                        if line.startswith(drop + ":"):
+                            skip = True
+                            continue
+                        kept.append(line)
+                    control = "".join(kept)
+                    if not control.endswith("\n"):
+                        control += "\n"
+            control += f"Icon: {BASE_URL}/assets/xxtouch.png\n"
+            control += f"Depiction: {BASE_URL}/depictions/com.1func.xxtouch.bigboss.html\n"
+            control += f"SileoDepiction: {BASE_URL}/depictions/com.1func.xxtouch.bigboss.json\n"
         rel = deb_path.relative_to(ROOT).as_posix()
         control += f"Filename: {rel}\n"
         control += f"Size: {len(blob)}\n"

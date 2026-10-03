@@ -1,3 +1,25 @@
+Package: com.1func.xxtouch.bigboss
+Name: XXTouch
+Depends: firmware (>= 9.0), mobilesubstrate (>=0.9.5000)
+Replaces: com.1func.xxtouch.bigboss, com.1func.xxtouch, com.1func.xxtouch.ios, com.xxtouch.ios, ch.xxtou.ios
+Architecture: iphoneos-arm
+Description: 可能是 iOS 平台最强的模拟触摸工具。
+Section: Development
+Author: XXTouch Team <tech@xxtou.ch>
+Maintainer: XXTouch Team <tech@xxtou.ch>
+Sponsor: XXTouch Team <https://docs.xxtou.ch>
+Homepage: https://docs.xxtou.ch
+Version: 1.3-7
+Installed-Size: 33168
+Icon: https://kmkm209.github.io/sileo/assets/xxtouch.png
+Depiction: https://kmkm209.github.io/sileo/depictions/com.1func.xxtouch.bigboss.html
+SileoDepiction: https://kmkm209.github.io/sileo/depictions/com.1func.xxtouch.bigboss.json
+Filename: debs/com.1func.xxtouch.bigboss_1.3-7_iphoneos-arm.deb
+Size: 9608156
+MD5sum: 80c3f597ebd3dc70fe924dd734235543
+SHA1: 4592e3f59a6c345cc8a5613191b865e4c1d1bb34
+SHA256: 5742b3bfb1ff75ba935658346f28eaa55df2a11edd1cf77287ad058bb8122c1c
+
 Package: com.zz.hello
 Name: ZZ Hello
 Version: 1.0.0
