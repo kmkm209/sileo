@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 12,
+  "banners": [
+    {
+      "url": "https://kmkm209.github.io/sileo/assets/banner.png",
+      "title": "ZZ Hello",
+      "package": "com.zz.hello",
+      "hideShadow": false
+    }
+  ]
+}

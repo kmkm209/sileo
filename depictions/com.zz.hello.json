@@ -1,0 +1,35 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#5b8cff",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "ZZ Hello"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "ZZ Repo 测试包。能在 Sileo 里搜到并安装，说明源已经可用。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包名",
+          "text": "com.zz.hello"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Package: com.zz.hello
+Name: ZZ Hello
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: zz <5123106@qq.com>
+Author: zz <5123106@qq.com>
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Description: ZZ Repo 测试包，安装后可在 Sileo 确认源可用。
+Depiction: https://kmkm209.github.io/sileo/depictions/com.zz.hello.html
+SileoDepiction: https://kmkm209.github.io/sileo/depictions/com.zz.hello.json
+Icon: https://kmkm209.github.io/sileo/CydiaIcon.png
+Filename: debs/com.zz.hello_1.0.0_iphoneos-arm.deb
+Size: 888
+MD5sum: 47987eda1cc5f22f3b4fc1731030c20d
+SHA1: 724c0c03fc3229c7f353023bf39490b2a1a2914f
+SHA256: 51bde99c8abc4b8007f186404c1ad83c38391daf940ce87f029ed81571372303
