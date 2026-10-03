@@ -20,20 +20,8 @@ python3 build.py
 
 ## 发布到 GitHub Pages
 
-1. GitHub 新建公开仓库 `sileo`（用户 `kmkm209`）
-2. Settings → Pages → Source 选 **GitHub Actions**
-3. 推送：
+仓库必须公开。推送后打开：
 
-```bash
-cd sileo-repo
-git init
-git add .
-git commit -m "init sileo repo"
-git branch -M main
-git remote add origin https://github.com/kmkm209/sileo.git
-git push -u origin main
-```
+Settings → Pages → Build and deployment → Source 选 **Deploy from a branch** → Branch 选 `main` / `/ (root)` → Save
 
-4. 等 Actions 绿了，Sileo → 源 → 添加 `https://kmkm209.github.io/sileo`
-
-仓库必须公开，Sileo 才能拉 `Release` / `Packages.bz2`。
+几分钟后 Sileo 添加：`https://kmkm209.github.io/sileo`
